@@ -1,0 +1,73 @@
+.card{
+    width: 500px;
+    height: 450px;
+    margin: 4px 8px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(103, 103, 103, 0.2), 0 6px 20px 0 rgba(76, 76, 76, 0.19);
+    position: relative;
+}
+
+.card h2{
+    font-weight: 900;
+}
+
+.card p{
+    color: rgb(176, 176, 176);
+    font-size: 13px;
+}
+
+img{
+    border-radius: 5px 5px 0px 0px;
+    object-fit: cover;
+}
+
+.hoverBtn{
+    color: azure;
+    position: absolute;
+    top: 25%;
+    left: 43%;
+    opacity: 0;
+}
+
+.img:hover ~ .hoverBtn{
+    opacity: 1;
+}
+
+.img:hover{
+    transition: ease .3s;
+    filter: brightness(.4);
+}
+
+.roundIcon{ 
+    margin-left: 12px;
+    display: flex;
+    position: absolute;
+    left: 9px;
+    top: 54%;
+}
+
+.lightBlue{
+    background-color: rgb(128, 199, 218);
+    width: 13px;
+    height: 13px;
+    border-radius: 9px;
+}
+
+.yellow{
+    background-color: #ffee32;
+    width: 13px;
+    height: 13px;
+    border-radius: 9px;
+    margin-left: 4px;
+}
+
+.cardContent{
+    padding: 20px;
+    
+}
+
+.cardDetails{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
